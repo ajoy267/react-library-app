@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
@@ -8,8 +8,6 @@ it('renders a welcome message when signed out', async () => {
       <App />
     </MemoryRouter>
   );
-
-  await screen.findByRole('list', { name: 'book list' });
 
   expect(container).toMatchSnapshot();
 });
