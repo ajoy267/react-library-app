@@ -4,13 +4,13 @@ import './Book.css';
 
 function Book({
   book: {
+    book_id,
     title,
     total_pages: totalPages,
     rating,
     isbn,
     published_date: publishedDate,
     authors,
-    book_id,
   },
   showDetail = false,
 }) {
