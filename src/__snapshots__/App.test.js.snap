@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a welcome message when signed out 1`] = `
+<div>
+  <main
+    class="container"
+  >
+    <h1>
+      Library Catalog
+    </h1>
+    <div
+      class="home"
+    >
+      <h2>
+        Welcome to Dangalfs Library of Computer Science!
+      </h2>
+      <p>
+        Check out the amazing selection of books in our
+        <a
+          href="/books"
+        >
+          Catalog;
+        </a>
+      </p>
+    </div>
+  </main>
+</div>
+`;
